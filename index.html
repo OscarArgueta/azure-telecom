@@ -16,12 +16,12 @@
           'Access-Control-Allow-Headers': '*'
         }
       });
-      const text = await resp.text()
-      //const result = await resp.json();
+      //const text = await resp.text()
+      const result = await resp.json();
      
       console.log('==============');
-      console.log(`1-text : [${text}]`);
-      //console.log(`1-result : [${result}]`);
+      //console.log(`1-text : [${text}]`);
+      console.log(`1-result : [${result.datos}]`);
       console.log('==============');
     }
 
