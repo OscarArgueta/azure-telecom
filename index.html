@@ -16,9 +16,9 @@
           'Access-Control-Allow-Headers': '*'
         }
       });
-      const result = await resp;
+      const result = await resp.json();
       console.log('==============');
-      console.log(`1-result : [${result.json()}]`);
+      console.log(`1-result : [${result}]`);
       console.log('==============');
     }
 
