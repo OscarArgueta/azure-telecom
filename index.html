@@ -24,6 +24,7 @@
       //console.log(`1-text : [${text}]`);
       console.log(`1-result : [${result.datos}]`);
       console.log('==============');
+      document.getElementById('azure-info').innerHTML = result.datos;
     }
 
     function sendAzure() {
@@ -44,5 +45,8 @@
   </script>
   <body>
     <button type="button" name="button" onclick="azureFunctionCall()"> Azure </button>
+    
+    <div id="azure-info">
+    </div>
   </body>
 </html>
