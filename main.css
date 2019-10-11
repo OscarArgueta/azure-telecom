@@ -13,3 +13,7 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+azure-info {
+  padding-top: 20px;
+}
